@@ -1,0 +1,27 @@
+{
+  "name": "trf1_api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "description": "API Node.js para consultar processos do TRF1 com serviço persistente de Puppeteer",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "trf1",
+    "processo",
+    "rpv",
+    "api",
+    "puppeteer",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "express": "^5.1.0",
+    "puppeteer": "^24.29.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
