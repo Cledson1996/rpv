@@ -1,11 +1,13 @@
+
 {
-  "name": "trf1_api",
+  "name": "trf1_api_vercel",
   "version": "1.0.0",
+  "description": "API Node.js para consultar processos do TRF1 - Otimizado para Vercel",
   "main": "server.js",
-  "description": "API Node.js para consultar processos do TRF1 com serviço persistente de Puppeteer",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "npm install"
   },
   "keywords": [
     "trf1",
@@ -13,15 +15,16 @@
     "rpv",
     "api",
     "puppeteer",
-    "express"
+    "express",
+    "vercel"
   ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cheerio": "^1.1.2",
-    "express": "^5.1.0",
-    "puppeteer": "^24.29.1",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
+    "express": "^4.18.2",
+    "puppeteer": "^21.6.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
